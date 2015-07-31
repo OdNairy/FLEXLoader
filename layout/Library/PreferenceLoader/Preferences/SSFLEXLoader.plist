@@ -35,6 +35,17 @@
 				);
 			},
 			{
+				cell = PSSwitchCell;
+				default = false;
+				defaults = "com.joeyio.FLEXLoader";
+				key = "FLEXLoaderEnabled-com.apple.springboard";
+				label = "Enabled on SpringBoard";
+			},
+			{
+				cell = PSGroupCell;
+				footerText = "You should respring after changing this setting.";
+			},
+			{
 				cell = PSGroupCell;
 				footerText = "Author: Xueshi Qiao. \nFLEXLoader is inspired by RHRevealLoader and modified from RHRevealLoader. \n\nThis tweak is not officially supported. For more information about FLEX see https://github.com/Flipboard/FLEX";
 			},
